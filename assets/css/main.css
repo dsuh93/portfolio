@@ -2025,12 +2025,8 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'devicon';
 			font-weight: 400;
-		}
-
-		.icon > .label {
-			display: none;
 		}
 
 		.icon:before {
@@ -2046,27 +2042,15 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			-moz-transform: rotate(-45deg);
-			-webkit-transform: rotate(-45deg);
-			-ms-transform: rotate(-45deg);
-			transform: rotate(-45deg);
-			border-radius: 3px;
-			border: solid 2px #fff;
 			display: inline-block;
-			font-size: 1.35em;
-			height: calc(3em + 2px);
-			line-height: 3em;
+			height: fit-content;
 			text-align: center;
-			width: calc(3em + 2px);
+			width: fit-content;
 		}
 
 			.icon.major:before {
-				-moz-transform: rotate(45deg);
-				-webkit-transform: rotate(45deg);
-				-ms-transform: rotate(45deg);
-				transform: rotate(45deg);
 				display: inline-block;
-				font-size: 1.5em;
+				font-size: 3.5em;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2077,17 +2061,7 @@ input, select, textarea {
 
 			}
 
-		.icon.style1 {
-			color: #00ffcc;
-		}
-
-		.icon.style2 {
-			color: #00f0ff;
-		}
-
-		.icon.style3 {
-			color: #76ddff;
-		}
+		
 
 /* Image */
 
@@ -2817,7 +2791,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: white;
 			color: #c8ece9;
 		}
 
@@ -2826,7 +2800,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #ffffff;
+				color: black;
 			}
 
 			.wrapper.style1 hr {
@@ -2850,7 +2824,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: black;
 			}
 
 			.wrapper.style1 label {
