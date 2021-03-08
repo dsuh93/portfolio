@@ -2295,7 +2295,7 @@ input, select, textarea {
 				padding-right: 3.5em;
 			}
 
-			ul.icons.major li:nth-child(6) {
+			ul.icons.major li:nth-child(5), ul.icons.major li:nth-child(12) {
 				padding-right: 0 !important;
 			}
 
