@@ -187,7 +187,7 @@
 								<p>If you've read this far, I would love to connect!<br />
 								Feel free to email below or check out my links for<br />
 								collaboration or just to say hi!</p>
-								<form action="https://formspree.io/f/mvodonnj" method="POST" target="_blank" rel="noopener noreferrer">
+								<form id="contactform" action="https://formspree.io/f/mvodonnj" method="POST" target="_blank" rel="noopener noreferrer">
 							  	<label>Your name:
 							  	  <input type="email" name="_name">
 							  	</label>
@@ -197,7 +197,14 @@
 							  	<label>Your message:
 							  	  <textarea name="message"></textarea>
 							  	</label>
-							  	<button type="submit">Send</button>
+							  	<button class="button fit primary" style="width:fit-content" type="submit" onclick="resetForm()">Send</button>
+									<script>
+										function resetForm() {
+											const contactForm = document.getElementById("contactform");
+											contactForm.reset();
+											return false;
+										}
+									</script>
 								</form>
 							</header>
 							<ul class="actions stacked">
