@@ -2159,6 +2159,8 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		margin-left: -1em;
+		margin-top: auto;
+		margin-bottom: auto;
 		padding-left: 0;
 	}
 
